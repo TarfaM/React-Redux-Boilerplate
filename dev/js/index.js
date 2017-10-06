@@ -9,6 +9,10 @@ import createLogger from 'redux-logger';
 import allReducers from './reducers';
 import App from './components/App';
 
+
+
+
+
 const logger = createLogger();
 const store = createStore(
     allReducers,
@@ -18,6 +22,7 @@ const store = createStore(
 ReactDOM.render(
     <Provider store={store}>
         <App />
-    </Provider>,
+    </Provider>
+    ,
     document.getElementById('root')
 );

@@ -1,6 +1,8 @@
 import React from 'react';
 import UserList from '../containers/user-list';
 import UserDetails from '../containers/user-detail';
+import JSONTest from '../containers/Json';
+
 require('../../scss/style.scss');
 
 const App = () => (
@@ -10,6 +12,7 @@ const App = () => (
         <hr />
         <h2>User Details</h2>
         <UserDetails />
+         <JSONTest />
     </div>
 );
 
